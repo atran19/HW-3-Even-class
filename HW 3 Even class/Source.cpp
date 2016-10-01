@@ -44,11 +44,13 @@ public:
 	}
 	int getPrevious()
 	{
+//subtract two to get even number	
 		int Previous = value - 2;
 			return Previous;
 	}
 	int getNext()
 	{
+//add two to get next even number
 		int Next = value + 2;
 		return Next;
 	}
